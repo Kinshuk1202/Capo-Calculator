@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Capo Calculator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="FretOption">
+        <item>No Capo</item>
+        <item>1st Fret</item>
+        <item>2nd Fret</item>
+        <item>3rd Fret</item>
+        <item>4th Fret</item>
+        <item>5th Fret</item>
+        <item>6th Fret</item>
+        <item>7th Fret</item>
+        <item>8th Fret</item>
+        <item>9th Fret</item>
+        <item>10th Fret</item>
+        <item>11th Fret</item>
+        <item>12th Fret</item>
+    </string-array>
+
+</resources>

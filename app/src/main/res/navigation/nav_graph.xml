@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.kinshuk.capocalculator.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_capoToOpenFragment"
+            app:destination="@id/capoToOpenFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_openToCapoFragment"
+            app:destination="@id/openToCapoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/capoToOpenFragment"
+        android:name="com.kinshuk.capocalculator.fragments.CapoToOpenFragment"
+        android:label="fragment_capo_to_open"
+        tools:layout="@layout/fragment_capo_to_open" />
+    <fragment
+        android:id="@+id/openToCapoFragment"
+        android:name="com.kinshuk.capocalculator.fragments.OpenToCapoFragment"
+        android:label="fragment_open_to_capo"
+        tools:layout="@layout/fragment_open_to_capo" />
+</navigation>
